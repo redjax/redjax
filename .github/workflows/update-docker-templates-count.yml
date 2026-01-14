@@ -1,0 +1,44 @@
+---
+name: Update docker_templates count
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get template count file
+        run: |
+          count=$(curl -fsSL https://raw.githubusercontent.com/redjax/docker_templates/refs/heads/main/metadata/templates_count)
+
+          echo "TEMPLATE_COUNT=$count" >> $GITHUB_ENV
+
+      - name: Set date
+        run: echo "TEMPLATE_DATE=$(date -u +%Y-%m-%d)" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          ## Replace template count between markers
+          sed -i "s|<!--TEMPLATE_COUNT-->.*<!--END_TEMPLATE_COUNT-->|<!--TEMPLATE_COUNT-->${{ env.TEMPLATE_COUNT }}<!--END_TEMPLATE_COUNT-->|g" README.md
+
+          ## Replace template date between markers
+          sed -i "s|<!--TEMPLATE_DATE-->.*<!--END_TEMPLATE_DATE-->|<!--TEMPLATE_DATE-->${{ env.TEMPLATE_DATE }}<!--END_TEMPLATE_DATE-->|g" README.md
+
+      - name: Commit and push if changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update docker_templates count in README"
+            git push
+          fi
