@@ -59,25 +59,15 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
 ## Find me on other platforms
 
 <div align="center">
-<table>
-<tr>
-<td>
-  <a href="https://gitlab.com/redjax">
-    <img src=".assets/img/gitlab-logo.svg" height="80" alt="GitLab logo" />
-  </a>
-</td>
-<td>
-  <img width="12" />
-</td>
-<td>
-  <a href="https://codeberg.org/redjax">
-    <img src=".assets/img/codeberg-logo.svg" height="80" alt="Codeberg logo" />
-  </a>
-</td>
-</tr>
-</table>
+  <div style="display: flex; justify-content: center; gap: 12px; align-items: center;">
+    <a href="https://gitlab.com/redjax">
+      <img src=".assets/img/gitlab-logo.svg" height="80" alt="GitLab"/>
+    </a>
+    <a href="https://codeberg.org/redjax">
+      <img src=".assets/img/codeberg-logo.svg" height="80" alt="Codeberg"/>
+    </a>
+  </div>
 </div>
-
 
 ## Notable Repositories
 
