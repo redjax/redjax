@@ -54,12 +54,25 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
   </p>
 </div>
 
+## Find me on other platforms
+
+<div align="center">
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <a href="https://gitlab.com/redjax" style="margin-right: 24px;">
+      <img src="https://raw.githubusercontent.com/redjax/redjax/feat/platform-links/.assets/img/gitlab-logo.svg" height="80" alt="GitLab"/>
+    </a>
+    <a href="https://codeberg.org/redjax">
+      <img src="https://raw.githubusercontent.com/redjax/redjax/feat/platform-links/.assets/img/codeberg-logo.svg" height="80" alt="Codeberg"/>
+    </a>
+  </div>
+</div>
+
 ## Notable Repositories
 
 | Repository                                                       | Description                                                                                                                                                                                                                                                                                                                                  |
 | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [redkb](https://github.com/redjax/redkb)                         | My personal knowledgebase, created with [MkDocs](https://www.mkdocs.org/).                                                                                                                                                                                                                                                                   |
-| [docker_templates](https://github.com/redjax/docker_templates)   | A living history of the services I have self-hosted in my homelab. Includes instructions if you want to try any of the stacks yourself. There are <!--TEMPLATE_COUNT-->174<!--END_TEMPLATE_COUNT--> templates in the repository as of <!--TEMPLATE_DATE-->2026-02-17<!--END_TEMPLATE_DATE-->.                                                |
+| [docker_templates](https://github.com/redjax/docker_templates)   | A living history of the services I have self-hosted in my homelab. Includes instructions if you want to try any of the stacks yourself. There are <!--TEMPLATE_COUNT-->174<!--END_TEMPLATE_COUNT--> templates in the repository as of <!--TEMPLATE_DATE-->2026-02-18<!--END_TEMPLATE_DATE-->.                                                |
 | [Ansible](https://github.com/redjax/Ansible)                     | My Ansible monorepo, with custom roles, collections, & playbooks to manage my homelab. I use [Semaphore](https://github.com/redjax/docker_templates/tree/main/templates/automation/docker_semaphore) for orchestration.                                                                                                                      |
 | [dotfiles](https://github.com/redjax/dotfiles)                   | You can tell a lot about a man by the dotfiles he keeps, & I keep mine with [chezmoi](https://www.chezmoi.io).                                                                                                                                                                                                                               |
 | [PowershellProfile](https://github.com/redjax/PowershellProfile) | My `$PROFILE`.                                                                                                                                                                                                                                                                                                                               |
