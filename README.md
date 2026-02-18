@@ -59,7 +59,7 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
 ## Find me on other platforms
 
 <div align="center">
-  <div style="display: flex; justify-content: center; gap: 12px; align-items: center;">
+  <div style="display: flex; justify-content: center; gap: 24px; align-items: center;">
     <a href="https://gitlab.com/redjax">
       <img src=".assets/img/gitlab-logo.svg" height="80" alt="GitLab"/>
     </a>
