@@ -2,8 +2,6 @@
 
 DevOps Engineer by day (and night), Linux & Open Source enthusiast by night (and day).
 
-I have a collection of old towers & laptops, an ancient blade server running Proxmox & 30-50 VMs/LXC containers at any given time, a couple of rented VPSes, Raspberry Pis, & other miscellaneous hardware I lovingly call my homelab.
-
 Writing about technology & my experiences on my [blog](https://techobyte.cc).
 
 ## My stack
@@ -69,3 +67,19 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
 | [git_dir](https://github.com/redjax/git_dir)                     | My `~/git` directory as a repository. Handles tool installs with [mise](https://mise.jdx.dev), & uses [Taskfile](https://taskfile.dev) for automation.                                                                                                                                                                                       |
 | [Terraform](https://github.com/redjax/Terraform)                 | Terraform monorepo with deployment environments. Uses [direnv](https://direnv.net) to create an environment contained to the directory, and deploys modules like [Cloudflare WAF rules](https://github.com/redjax/Terraform/actions/workflows/tf-apply-cloudflare-waf-rulesets.yml) using a Github Action. Cross-platform & well documented. |
 | [system_scripts](https://github.com/redjax/system_scripts)       | Collection of scripts I have used at work & at home. The scripts are broken down by OS, then by category.                                                                                                                                                                                                                                    |
+
+## My Homelab
+
+I run most of my services on machines in my home and rent a VPS to serve as a reverse proxy/VPN server with identity management. Most of my sensitive services require authentication, although some are exposed to the Internet. I use Cloudflare to point my domain to the VPS, and use subdomains and a reverse proxy to route traffic over a secure tunnel back to the homelab. This way I don't have to open any additional ports on my home firewall. I block traffic using Cloudflare's WAF rules, which I manage [via Terraform](https://github.com/redjax/Terraform/tree/main/modules/cloudflare/WafZoneCustomRules).
+
+An incomplete inventory of the hardware:
+
+- 1 (old) blade server running Proxmox VE
+  - Many VMs and LXC containers, each serving a single purpose
+- 2 towers, 1 has a GPU and hosts game servers
+- Multiple Raspberry Pis from different generations
+- Multiple mini PCs
+- Multiple rented VPSes managed by Ansible for routing and edge services
+- A NAS primarily used for backup cold storage
+
+I use [restic](https://restic.net) to backup important data, and [resticprofile](https://github.com/creativeprojects/resticprofile) to automate and organize the backups per-machine. On some server nodes, I use [backrest](https://github.com/garethgeorge/backrest) to have a web interface for managing the backups.
