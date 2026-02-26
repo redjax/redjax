@@ -4,8 +4,6 @@ DevOps Engineer by day (and night), Linux & Open Source enthusiast by night (and
 
 Writing about technology & my experiences on my [blog](https://techobyte.cc).
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=redjax.visitor-badge)
-
 ## My stack
 
 ###
@@ -109,3 +107,7 @@ I use [restic](https://restic.net) to backup important data, and [resticprofile]
 - [Blog Setup](https://techobyte.cc/posts/blog-setup/)
 - [Git Rewrite History](https://techobyte.cc/notes/git-rewrite-history/)
 <!-- BLOG-POST-LIST:END -->
+
+<hr />
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=redjax.visitor-badge)
