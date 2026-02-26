@@ -58,9 +58,10 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
 
 <div align="center">
   <div style="display: flex; justify-content: center; align-items: center;">
-    <a href="https://gitlab.com/redjax" style="margin-right: 24px;">
+    <a href="https://gitlab.com/redjax">
       <img src=".assets/img/gitlab-logo.svg" height="80" alt="GitLab"/>
     </a>
+    <img width="40" />
     <a href="https://codeberg.org/redjax">
       <img src=".assets/img/codeberg-logo.svg" height="80" alt="Codeberg"/>
     </a>
