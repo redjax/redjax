@@ -1,4 +1,6 @@
-name: Latest blog post workflow
+---
+name: Update Latest blog posts
+
 on:
   schedule:
     - cron: '0 0 * * *'
