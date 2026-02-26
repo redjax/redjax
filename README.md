@@ -99,3 +99,8 @@ An incomplete inventory of the hardware:
 - A NAS primarily used for backup cold storage
 
 I use [restic](https://restic.net) to backup important data, and [resticprofile](https://github.com/creativeprojects/resticprofile) to automate and organize the backups per-machine. On some server nodes, I use [backrest](https://github.com/garethgeorge/backrest) to have a web interface for managing the backups.
+
+## Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
