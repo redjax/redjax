@@ -59,10 +59,10 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
 <div align="center">
   <div style="display: flex; justify-content: center; align-items: center;">
     <a href="https://gitlab.com/redjax" style="margin-right: 24px;">
-      <img src="https://raw.githubusercontent.com/redjax/redjax/feat/platform-links/.assets/img/gitlab-logo.svg" height="80" alt="GitLab"/>
+      <img src=".assets/img/gitlab-logo.svg" height="80" alt="GitLab"/>
     </a>
     <a href="https://codeberg.org/redjax">
-      <img src="https://raw.githubusercontent.com/redjax/redjax/feat/platform-links/.assets/img/codeberg-logo.svg" height="80" alt="Codeberg"/>
+      <img src=".assets/img/codeberg-logo.svg" height="80" alt="Codeberg"/>
     </a>
   </div>
 </div>
