@@ -103,4 +103,9 @@ I use [restic](https://restic.net) to backup important data, and [resticprofile]
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Blog Setup: Challenges](https://techobyte.cc/posts/blog-setup/challenges/)
+- [Blog Setup: Tools](https://techobyte.cc/posts/blog-setup/tools/)
+- [Blog Setup: Choices Made](https://techobyte.cc/posts/blog-setup/choices-made/)
+- [Blog Setup](https://techobyte.cc/posts/blog-setup/)
+- [Git Rewrite History](https://techobyte.cc/notes/git-rewrite-history/)
 <!-- BLOG-POST-LIST:END -->
