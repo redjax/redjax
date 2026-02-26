@@ -22,5 +22,5 @@ jobs:
           ## Link to a feed, i.e. a Hugo /index.xml
           #  You must add a BLOG_FEED_URL to the repository's vars
           feed_list: ${{ vars.BLOG_FEED_URL }}
-          user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          user_agent: "GitHubActions-BlogPostBot/1.0 (+https://github.com/redjax/redjax)"
           max_post_count: 5
