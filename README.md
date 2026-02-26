@@ -4,6 +4,8 @@ DevOps Engineer by day (and night), Linux & Open Source enthusiast by night (and
 
 Writing about technology & my experiences on my [blog](https://techobyte.cc).
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=redjax.visitor-badge)
+
 ## My stack
 
 ###
