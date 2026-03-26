@@ -108,6 +108,12 @@ I use [restic](https://restic.net) to backup important data, and [resticprofile]
 - [Blog Setup](https://techobyte.cc/posts/blog-setup/)
 <!-- BLOG-POST-LIST:END -->
 
+## Stats
+
+![redjax's GitHub stats](https://github-readme-stats-five-phi-49.vercel.app/api?username=redjax&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)
+
+<!-- ![Top Langs](https://github-readme-stats-five-phi-49.vercel.app/api/top-langs/?username=redjax&layout=donut&hide=html&langs_count=12&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR) -->
+
 <hr />
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=redjax.visitor-badge)
