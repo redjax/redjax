@@ -81,6 +81,7 @@ Writing about technology & my experiences on my [blog](https://techobyte.cc).
 | [git_dir](https://github.com/redjax/git_dir)                     | My `~/git` directory as a repository. Handles tool installs with [mise](https://mise.jdx.dev), & uses [Taskfile](https://taskfile.dev) for automation.                                                                                                                                                                                       |
 | [Terraform](https://github.com/redjax/Terraform)                 | Terraform monorepo with deployment environments. Uses [direnv](https://direnv.net) to create an environment contained to the directory, and deploys modules like [Cloudflare WAF rules](https://github.com/redjax/Terraform/actions/workflows/tf-apply-cloudflare-waf-rulesets.yml) using a Github Action. Cross-platform & well documented. |
 | [system_scripts](https://github.com/redjax/system_scripts)       | Collection of scripts I have used at work & at home. The scripts are broken down by OS, then by category.                                                                                                                                                                                                                                    |
+| [dockerfiles](https://github.com/redjax/Dockerfiles)             | A collection of my Dockerfiles, with a nightly CI/CD pipeline to rebuild and publish containers on upstream changes. The containers cover a range of uses, from CI/CD base images to security containers.                                                                                                                                    |
 
 ## My Homelab
 
@@ -101,12 +102,19 @@ I use [restic](https://restic.net) to backup important data, and [resticprofile]
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+
 - [Comparing backup solutions &lpar;why I picked Restic&rpar;](https://techobyte.cc/posts/comparing-backup-solutions/)
 - [Blog Setup: Challenges](https://techobyte.cc/posts/blog-setup/challenges/)
 - [Blog Setup: Tools](https://techobyte.cc/posts/blog-setup/tools/)
 - [Blog Setup: Choices Made](https://techobyte.cc/posts/blog-setup/choices-made/)
 - [Blog Setup](https://techobyte.cc/posts/blog-setup/)
 <!-- BLOG-POST-LIST:END -->
+
+## Stats
+
+![redjax's GitHub stats](https://github-readme-stats-five-phi-49.vercel.app/api?username=redjax&show_icons=true&theme=transparent&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)
+
+<!-- ![Top Langs](https://github-readme-stats-five-phi-49.vercel.app/api/top-langs/?username=redjax&layout=donut&hide=html&langs_count=12&theme=transparent&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR) -->
 
 <hr />
 
