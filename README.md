@@ -102,7 +102,6 @@ I use [restic](https://restic.net) to backup important data, and [resticprofile]
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-
 - [Comparing backup solutions &lpar;why I picked Restic&rpar;](https://techobyte.cc/posts/comparing-backup-solutions/)
 - [Blog Setup: Challenges](https://techobyte.cc/posts/blog-setup/challenges/)
 - [Blog Setup: Tools](https://techobyte.cc/posts/blog-setup/tools/)
