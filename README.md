@@ -102,11 +102,11 @@ I use [restic](https://restic.net) to backup important data, and [resticprofile]
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Migration to Cloudflare Pages](/posts/migration-to-cloudflare-pages/)
+- [200 Docker Compose Templates](/posts/200-docker-compose-templates/)
 - [Leaving Google Photos](/posts/leaving-google-photos/)
 - [Comparing backup solutions &lpar;why I picked Restic&rpar;](/posts/comparing-backup-solutions/)
 - [Blog Setup: Challenges](/posts/blog-setup/challenges/)
-- [Blog Setup: Tools](/posts/blog-setup/tools/)
-- [Blog Setup: Choices Made](/posts/blog-setup/choices-made/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Stats
